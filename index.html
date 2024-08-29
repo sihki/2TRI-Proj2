@@ -18,7 +18,7 @@
   <header class="cabeçalho">
     <div class="container">
       <input type="checkbox" id="menu" class="container__botao">
-      <label for="menu">
+      <label for="menu" class="container__rotulo">
         <span class="cabeçalho__menu-hamburguer container__imagem"></span>
       </label>
       <ul class="lista-menu">
@@ -44,7 +44,7 @@
 
       <ul class="opções">
         <input type="checkbox" id="opções-menu" class="opções__botão" />
-        <label for="opções-menu">
+        <label for="opções-menu" class="opções__rotulo">
           <li class="opções__item">Categorias</li>
         </label>
 
@@ -101,7 +101,7 @@
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
-          <div class="swiper-slide"><img src="img/Apachekafka.svg"
+          <div class="swiper-slide"><img src="img/ApacheKafka.svg"
               alt="Livro sobre apache kafka e spring boot da alura books"></div>
           <div class="swiper-slide"><img src="img/Liderança.svg"
               alt="Livro sobre liderança em design design da alura books"></div>
@@ -245,7 +245,7 @@
         Atualizações de e-books, novos livros, promoções e outros.
       </p>
     </div>
-    <input type="email" placeholder="        Cadastre seu e-mail" class="contato__email" />
+    <input type="email" placeholder="        Cadastre seu e-mail" class="contato__email">
   </section>
 
   <hr />
@@ -335,8 +335,8 @@
       spaceBetween: 10,
       slidesPerView: 3,
       pagination: {
-        el: ".swiper-pagination",
-        type: "bullets",
+        el: '.swiper-pagination',
+        type: 'bullets',
       },
     });
   </script>
